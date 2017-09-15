@@ -48,7 +48,7 @@ class Cell {
             delete[] cell_p;
         };
         
-         void set(int i, int j, int val) const {
+         void set(int i, int j, int val) {
              cell[i + j*width] = val;
          };
          int get(int i, int j) const {
