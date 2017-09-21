@@ -97,7 +97,7 @@ class Cell {
                  }
                  str += "\n";
              }
-             str += "\r\e[" + std::to_string(width) + "A";
+             str += "\r\e[" + std::to_string(height) + "A";
              return str;
          }
          void update() {
